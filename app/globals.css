@@ -40,12 +40,14 @@
 html {
   background: var(--bg);
   scroll-behavior: smooth;
+  /* Fluid base: ~16px on phones → ~18px on wide screens */
+  font-size: clamp(16px, 0.9vw + 13.5px, 18px);
 }
 
 body {
-  min-height: 100vh;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100svh;
+  overflow-x: hidden;
+  overflow-y: auto;
   background:
     radial-gradient(1000px 700px at 50% -180px, rgba(255, 255, 255, 0.13), transparent 72%),
     linear-gradient(180deg, #030305 0%, #090909 45%, #030305 100%);
@@ -626,9 +628,9 @@ textarea:focus-visible {
   align-items: center;
   gap: 10px;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 900;
-  letter-spacing: 0;
+  letter-spacing: -0.01em;
 }
 
 .brand-mark {
@@ -678,11 +680,11 @@ textarea:focus-visible {
   justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 999px;
-  padding: 0 15px;
+  padding: 0 18px;
   background: rgba(255, 255, 255, 0.055);
   color: rgba(255, 255, 255, 0.82);
   cursor: none;
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   font-weight: 900;
   letter-spacing: 0;
   transition:
@@ -2766,8 +2768,8 @@ html[data-theme="light"] .cursor-ring {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: calc(100svh - 100px);
-  padding: 20px 24px 40px;
+  min-height: 100svh;
+  padding: 100px 24px 48px;
 }
 
 .app-stage {
@@ -2787,7 +2789,7 @@ html[data-theme="light"] .cursor-ring {
   background: none;
   color: rgba(255, 255, 255, 0.62);
   cursor: none;
-  font-size: 0.84rem;
+  font-size: 0.96rem;
   font-weight: 700;
   letter-spacing: 0;
   transition: color 0.24s var(--ease);
@@ -3386,6 +3388,47 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
 }
 
 /* ═══════════════════════════════════════════════════════════════
+   GLOBAL MOBILE RESPONSIVE
+═══════════════════════════════════════════════════════════════ */
+
+/* Navbar compact on phones */
+@media (max-width: 480px) {
+  .navbar {
+    top: 10px;
+    width: calc(100% - 20px);
+    min-height: 52px;
+    padding: 6px 8px 6px 14px;
+    gap: 10px;
+  }
+
+  .brand {
+    font-size: 1.1rem;
+  }
+
+  .theme-toggle {
+    min-height: 36px;
+    padding: 0 12px;
+    font-size: 0.84rem;
+  }
+
+  .nav-link-btn {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+
+  .app-main {
+    padding-top: 80px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 24px;
+  }
+
+  .stage-label {
+    margin-bottom: 12px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
    ABOUT OVERLAY
 ═══════════════════════════════════════════════════════════════ */
 
@@ -3417,12 +3460,12 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 7px 14px;
+  padding: 8px 16px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.05);
   color: rgba(255, 255, 255, 0.7);
-  font-size: 0.84rem;
+  font-size: 0.94rem;
   font-weight: 700;
   letter-spacing: 0.01em;
   cursor: pointer;
@@ -3443,8 +3486,8 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   align-items: center;
   gap: 8px;
   color: #fff;
-  font-size: 1rem;
-  font-weight: 800;
+  font-size: 1.2rem;
+  font-weight: 900;
   letter-spacing: -0.01em;
   flex-shrink: 0;
 }
@@ -3470,12 +3513,12 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
 }
 
 .ao-nav-tab {
-  padding: 6px 14px;
+  padding: 7px 16px;
   border: 1px solid transparent;
   border-radius: 7px;
   background: transparent;
   color: rgba(255, 255, 255, 0.46);
-  font-size: 0.84rem;
+  font-size: 0.94rem;
   font-weight: 700;
   letter-spacing: 0.01em;
   cursor: pointer;
