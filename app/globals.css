@@ -177,7 +177,7 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-weight: 800;
+  font-weight: 600;
 }
 .nav-links { display: flex; gap: 10px; }
 .nav-link-btn { background: transparent; border: none; color: var(--muted); font-weight: 700; padding: 8px 12px; border-radius: 8px; }
@@ -269,7 +269,7 @@ main {
   margin-bottom: 20px;
   color: var(--saffron-soft);
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -302,7 +302,7 @@ main {
   max-width: 850px;
   color: #fff;
   font-size: 4.05rem;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 0.98;
   letter-spacing: 0;
 }
@@ -331,7 +331,7 @@ main {
   border-radius: 999px;
   padding: 0 24px;
   font-size: 0.92rem;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 0;
   transition:
     transform 0.28s var(--ease),
@@ -627,7 +627,7 @@ textarea:focus-visible {
   gap: 10px;
   color: #fff;
   font-size: 1.2rem;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: -0.01em;
 }
 
@@ -683,7 +683,7 @@ textarea:focus-visible {
   color: rgba(255, 255, 255, 0.82);
   cursor: none;
   font-size: 0.92rem;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0;
   transition:
     transform 0.26s var(--ease),
@@ -709,7 +709,7 @@ textarea:focus-visible {
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
   font-size: 0.86rem;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 0;
   box-shadow: 0 0 24px rgba(255, 255, 255, 0.12);
 }
@@ -739,7 +739,7 @@ textarea:focus-visible {
 .hero-copy h1 {
   color: #fff;
   font-size: 6.9rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 0.9;
   letter-spacing: 0;
   text-wrap: balance;
@@ -830,7 +830,7 @@ textarea:focus-visible {
   background: rgba(245, 245, 245, 0.08);
   color: #ffffff;
   font-size: 0.74rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .hero-translation {
@@ -864,7 +864,7 @@ textarea:focus-visible {
   margin-bottom: 9px;
   color: var(--quiet);
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -945,7 +945,7 @@ textarea:focus-visible {
   margin-bottom: 5px;
   color: var(--quiet);
   font-size: 0.72rem;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -975,7 +975,7 @@ textarea:focus-visible {
   margin-bottom: 6px;
   color: var(--saffron-soft);
   font-size: 0.72rem;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -1051,7 +1051,7 @@ textarea:focus-visible {
   background: rgba(255, 255, 255, 0.08);
   color: var(--saffron-soft);
   font-size: 0.78rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .problem-card h3,
@@ -1062,7 +1062,7 @@ textarea:focus-visible {
   margin-top: 38px;
   color: #fff;
   font-size: 1.45rem;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.16;
   letter-spacing: 0;
 }
@@ -1089,7 +1089,7 @@ textarea:focus-visible {
   padding: 18px;
   background: rgba(255, 255, 255, 0.04);
   color: rgba(255, 255, 255, 0.64);
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .problem-statement i {
@@ -1178,7 +1178,7 @@ textarea:focus-visible {
   display: block;
   color: #fff;
   font-size: 2.08rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1;
 }
 
@@ -1187,7 +1187,7 @@ textarea:focus-visible {
   margin-top: 10px;
   color: var(--quiet);
   font-size: 0.82rem;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -1210,7 +1210,7 @@ textarea:focus-visible {
   background: rgba(255, 255, 255, 0.055);
   color: rgba(248, 248, 248, 0.82);
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .demo-shell {
@@ -1264,7 +1264,7 @@ textarea:focus-visible {
   color: rgba(255, 255, 255, 0.55);
   cursor: none;
   font-size: 0.9rem;
-  font-weight: 800;
+  font-weight: 600;
   text-align: left;
 }
 
@@ -1298,7 +1298,7 @@ textarea:focus-visible {
 .chat-header span {
   color: var(--quiet);
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -1306,7 +1306,7 @@ textarea:focus-visible {
   margin-top: 6px;
   color: #fff;
   font-size: 1.55rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .swap-button,
@@ -1319,7 +1319,7 @@ textarea:focus-visible {
   color: rgba(255, 255, 255, 0.8);
   cursor: none;
   font-size: 0.82rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .chat-stream {
@@ -1467,7 +1467,7 @@ textarea:focus-visible {
 .history-row span {
   color: var(--blue-soft);
   font-size: 0.72rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .history-row p,
@@ -1529,7 +1529,7 @@ textarea:focus-visible {
 .flow-node span {
   color: var(--blue-soft);
   font-size: 2.6rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1;
 }
 
@@ -1592,7 +1592,7 @@ textarea:focus-visible {
 
 .stack-layer span {
   font-size: 0.88rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 @keyframes stackPulse {
@@ -1635,7 +1635,7 @@ textarea:focus-visible {
   background: rgba(255, 255, 255, 0.045);
   color: var(--quiet);
   font-size: 0.68rem;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -1661,7 +1661,7 @@ textarea:focus-visible {
   margin-top: 4px;
   color: var(--quiet);
   font-size: 0.68rem;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -1702,7 +1702,7 @@ textarea:focus-visible {
   margin-top: 16px;
   color: var(--quiet);
   font-size: 0.68rem;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -1748,7 +1748,7 @@ textarea:focus-visible {
   max-width: 760px;
   color: #fff;
   font-size: 4rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 0.98;
   letter-spacing: 0;
 }
@@ -1796,7 +1796,7 @@ textarea:focus-visible {
   margin-bottom: 12px;
   color: var(--quiet);
   font-size: 0.74rem;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -1804,7 +1804,7 @@ textarea:focus-visible {
   display: block;
   color: #fff;
   font-size: 1.18rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.18;
   overflow-wrap: anywhere;
 }
@@ -1844,7 +1844,7 @@ textarea:focus-visible {
   background: #fff;
   color: #050505;
   font-size: 0.72rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .team-row strong,
@@ -1861,7 +1861,7 @@ textarea:focus-visible {
 .supervisor-row span {
   color: var(--quiet);
   font-size: 0.74rem;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -1896,7 +1896,7 @@ textarea:focus-visible {
   display: block;
   color: #fff;
   font-size: 5rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 0.9;
 }
 
@@ -1953,7 +1953,7 @@ textarea:focus-visible {
   display: block;
   color: var(--quiet);
   font-size: 0.68rem;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -2006,7 +2006,7 @@ textarea:focus-visible {
 .final-cta-inner span {
   color: var(--saffron-soft);
   font-size: 0.86rem;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -2014,7 +2014,7 @@ textarea:focus-visible {
   margin-top: 22px;
   color: #fff;
   font-size: 4.6rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 0.98;
   letter-spacing: 0;
 }
@@ -2919,7 +2919,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   margin-bottom: 14px;
   color: rgba(255, 255, 255, 0.48);
   font-size: 0.74rem;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -2937,7 +2937,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   margin-bottom: 20px;
   color: #fff;
   font-size: 2.1rem;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.12;
   letter-spacing: -0.01em;
 }
@@ -2974,7 +2974,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   display: block;
   color: #fff;
   font-size: 1.8rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1;
 }
 
@@ -2983,7 +2983,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   margin-top: 8px;
   color: rgba(255, 255, 255, 0.46);
   font-size: 0.72rem;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -3006,7 +3006,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   margin-bottom: 8px;
   color: #fff;
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .modal-method-card p {
@@ -3043,14 +3043,14 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   margin-bottom: 6px;
   color: rgba(255, 255, 255, 0.46);
   font-size: 0.7rem;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
 .modal-result-info strong {
   color: #fff;
   font-size: 0.95rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .modal-result-scores {
@@ -3064,7 +3064,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   display: block;
   color: rgba(255, 255, 255, 0.42);
   font-size: 0.62rem;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -3073,7 +3073,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   margin-top: 3px;
   color: #fff;
   font-size: 0.94rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .modal-bar {
@@ -3118,7 +3118,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   background: linear-gradient(135deg, rgba(255,255,255,0.18), rgba(255,255,255,0.06));
   color: #fff;
   font-size: 0.88rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .modal-team-card strong {
@@ -3126,7 +3126,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   margin-bottom: 6px;
   color: #fff;
   font-size: 0.94rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .modal-team-card span {
@@ -3147,7 +3147,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   margin-bottom: 8px;
   color: rgba(255, 255, 255, 0.44);
   font-size: 0.72rem;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -3156,7 +3156,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   margin-bottom: 4px;
   color: #fff;
   font-size: 1.16rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .modal-supervisor p {
@@ -3186,7 +3186,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   margin-bottom: 8px;
   color: rgba(255, 255, 255, 0.44);
   font-size: 0.7rem;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -3195,7 +3195,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   margin-bottom: 8px;
   color: #fff;
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .modal-repo-link p {
@@ -3231,7 +3231,7 @@ html[data-theme="light"] .nav-link-btn:hover { color: #050505; }
   margin-bottom: 5px;
   color: #fff;
   font-size: 0.92rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .modal-link-card span {
@@ -3487,7 +3487,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   gap: 8px;
   color: #fff;
   font-size: 1.2rem;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: -0.01em;
   flex-shrink: 0;
 }
@@ -3502,7 +3502,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   background: linear-gradient(135deg, rgba(255,255,255,0.22), rgba(255,255,255,0.08));
   border: 1px solid rgba(255, 255, 255, 0.18);
   font-size: 0.88rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .ao-nav-tabs {
@@ -3564,7 +3564,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.44);
   font-size: 0.74rem;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -3583,7 +3583,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   margin-bottom: 22px;
   color: #fff;
   font-size: clamp(2rem, 4vw, 3.2rem);
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.06;
   letter-spacing: -0.025em;
 }
@@ -3600,7 +3600,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   margin-bottom: 18px;
   color: #fff;
   font-size: clamp(1.6rem, 3vw, 2.4rem);
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
@@ -3639,7 +3639,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   margin-bottom: 12px;
   color: rgba(255, 255, 255, 0.38);
   font-size: 0.68rem;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0.09em;
   text-transform: uppercase;
 }
@@ -3659,7 +3659,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   margin-bottom: 16px;
   color: rgba(255, 255, 255, 0.38);
   font-size: 0.7rem;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0.09em;
   text-transform: uppercase;
 }
@@ -3683,7 +3683,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
 .ao-tech-pill strong {
   color: #fff;
   font-size: 0.9rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .ao-tech-pill span {
@@ -3736,7 +3736,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   margin-bottom: 4px;
   color: #fff;
   font-size: 0.94rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .ao-link-card span {
@@ -3776,7 +3776,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   display: block;
   color: #fff;
   font-size: 1.9rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1;
   letter-spacing: -0.02em;
 }
@@ -3786,7 +3786,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   margin-top: 8px;
   color: rgba(255, 255, 255, 0.44);
   font-size: 0.7rem;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -3818,7 +3818,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   width: 28px;
   color: rgba(255, 255, 255, 0.22);
   font-size: 0.78rem;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0.04em;
   padding-top: 2px;
 }
@@ -3828,7 +3828,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   margin-bottom: 8px;
   color: #fff;
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .ao-method-card p {
@@ -3857,7 +3857,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
 .ao-results-header span {
   color: rgba(255, 255, 255, 0.38);
   font-size: 0.68rem;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -3895,7 +3895,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
 .ao-result-row strong {
   color: #fff;
   font-size: 0.9rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .ao-direction-tag {
@@ -3942,7 +3942,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   margin-bottom: 8px;
   color: #fff;
   font-size: 0.88rem;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -3991,7 +3991,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   background: linear-gradient(135deg, rgba(255,255,255,0.16), rgba(255,255,255,0.05));
   color: #fff;
   font-size: 0.92rem;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0.01em;
 }
 
@@ -4000,7 +4000,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   margin-bottom: 5px;
   color: #fff;
   font-size: 0.96rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .ao-team-role {
@@ -4033,7 +4033,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   margin-bottom: 6px;
   color: #fff;
   font-size: 1.05rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .ao-supervisor-card p {
@@ -4062,7 +4062,7 @@ html[data-theme="light"] .modal-bar-fill { background: linear-gradient(90deg, rg
   margin-bottom: 4px;
   color: #fff;
   font-size: 1.1rem;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: -0.01em;
 }
 
