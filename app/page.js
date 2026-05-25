@@ -251,8 +251,7 @@ function Navbar({ onAbout }) {
   return (
     <header className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
       <a className="brand" href="/" aria-label="Dotu home">
-        <span className="brand-mark">D</span>
-        <span>Dotu</span>
+        <span>DoTu</span>
       </a>
       <nav className="nav-links" aria-label="Primary navigation">
         <button className="nav-link-btn" type="button" onClick={onAbout}>
@@ -314,8 +313,7 @@ function ProductDemo({ onTranslate }) {
     <div className="demo-shell">
       <aside className="demo-rail">
         <div className="rail-brand">
-          <span className="brand-mark">D</span>
-          <div><strong>Dotu Lab</strong><small>live neural workspace</small></div>
+          <div><strong>DoTu Lab</strong><small>live neural workspace</small></div>
         </div>
         <button className="rail-item active" type="button">
           <span />Translate
@@ -660,8 +658,7 @@ function AboutOverlay({ onClose }) {
         </button>
 
         <div className="ao-nav-brand">
-          <span className="ao-nav-mark">D</span>
-          <span>Dotu</span>
+          <span>DoTu</span>
         </div>
 
         <div className="ao-nav-tabs">
