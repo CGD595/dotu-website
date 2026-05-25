@@ -142,23 +142,21 @@ main {
 
 /* Make the app a single, centered viewport with no page scrolling */
 .app-main {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .app-stage {
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 28px;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* Navbar: fixed at top, keeps about/research/results/team accessible */
@@ -532,9 +530,9 @@ textarea:focus-visible {
 @media (min-width: 900px) {
   .demo-shell { flex-direction: row; align-items: stretch; gap: 28px; }
   .demo-rail { display: flex; flex-direction: column; gap: 10px; width: 220px; }
-  .chat-console { flex: 1; min-width: 720px; }
-  .chat-stream .message-row textarea { min-height: 220px; font-size: 1.05rem; padding: 16px; }
-  .chat-stream .message-row p { min-height: 220px; font-size: 1.05rem; padding: 16px; }
+  .chat-console { flex: 1; min-width: 0; }
+  .chat-stream .message-row textarea { min-height: 160px; font-size: 1.05rem; padding: 16px; }
+  .chat-stream .message-row p { min-height: 160px; font-size: 1.05rem; padding: 16px; }
   .chat-header h3 { font-size: 1.4rem; }
   .stage-label .eyebrow { font-size: 0.92rem; }
 }
@@ -2767,14 +2765,16 @@ html[data-theme="light"] .cursor-ring {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   min-height: 100svh;
-  padding: 100px 24px 48px;
+  padding: 100px 24px 60px;
+  overflow: visible;
 }
 
 .app-stage {
   width: 100%;
   max-width: 1100px;
+  overflow: visible;
 }
 
 .stage-label {
